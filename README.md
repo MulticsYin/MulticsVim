@@ -125,7 +125,7 @@ __修改自 [TTWShell/legolas-vim](https://github.com/TTWShell/legolas-vim)__
 | :line**d** | 删除指定行 |
 | :line,line**d** | 删除指定范围内的行 |
 
-注：golang第三方库自动补全无效：
+__注：golang第三方库自动补全无效：__
 ```
 执行vim-go命令 `:GoInstallBinaries`即可修复，可能报错：
 
