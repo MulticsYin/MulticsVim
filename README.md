@@ -121,15 +121,15 @@ __修改自 [TTWShell/legolas-vim](https://github.com/TTWShell/legolas-vim)__
 | :line,line**d** | 删除指定范围内的行 |
 
 注：golang第三方库自动补全无效：
+```
+执行vim-go命令 `:GoInstallBinaries`即可修复，可能报错：
 
-    执行vim-go命令 `:GoInstallBinaries`即可修复，可能报错：
+    错误信息： vim-go: gogetdoc not found. Installing github.com/zmb3/gogetdoc to folder /usr/local/opt/go/libexec/bin
+    xxx timeout
 
-        错误信息： vim-go: gogetdoc not found. Installing github.com/zmb3/gogetdoc to folder /usr/local/opt/go/libexec/bin
-        xxx timeout
+可能的原因是PATH配置错误，需要加上$GOPATH/bin。即:
 
-    可能的原因是PATH配置错误，需要加上$GOPATH/bin。即:
-
-        git clone https://github.com/golang/tools $GOPATH/golang.org/x/tools  # 直接安装gotools
-        export PATH=$GOPATH/bin:$PATH
-
+    git clone https://github.com/golang/tools $GOPATH/golang.org/x/tools  # 直接安装gotools
+    export PATH=$GOPATH/bin:$PATH
+```
 
