@@ -2,6 +2,11 @@
 
 __修改自 [TTWShell/legolas-vim](https://github.com/TTWShell/legolas-vim)__  
 
+图片仅仅为演示所用，相信现实中不会有人留这么多空格吧？
+
+如图：  
+![](https://github.com/MulticsYin/MulticsDevOps/blob/master/picture/sereen00.png)
+
 # Install & Update
 
 **支持Ubuntu、Centos（需要先处理下问题5 sudo vim的问题）、Mac OSX（默认基于brew安装新版vim）**，一键安装：
